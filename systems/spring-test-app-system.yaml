@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: spring-test-app
+  description: Spring Test App System
+  annotations:
+    'backstage.io/techdocs-ref': dir:.
+spec:
+  owner: default-team
+  domain: spring-test-app-domain
